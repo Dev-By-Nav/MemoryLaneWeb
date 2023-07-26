@@ -16,7 +16,7 @@ function Form() {
     <div className='my-16'>
       <h1 className="flex text-2xl font-semibold items-center justify-center font-montserrat">Get In Touch For Bookings/ Enquiries</h1>
       <h2 className="flex text-lg font-base items-center justify-center mb-8 mt-1 font-raleway">Send us a message to book or for more info.</h2>
-      <div className="flex justify-center">
+      <div className="flex justify-center mx-4">
         <form onSubmit={handleSubmit} className="w-full max-w-md font-montserrat">
           <div className="mb-4 ">
             <label htmlFor="name" className="block mb-2">
