@@ -5,7 +5,7 @@ function Pricing() {
     <div className='flex items-center justify-center mt-16 flex-col'>
         <h1 className=' text-2xl font-semibold font-montserrat'>Pricing & Services</h1>
 
-        <div className='mt-10'>
+        <div className='mt-10 pl-6'>
             <h2 className='text-lg font- font-montserrat'>All our packages include the following:</h2>
             <div className='mt-4 font-raleway'>
                 <p className='py-1'>Free same-day delivery, setup and take-down on our time</p>
