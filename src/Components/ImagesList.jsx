@@ -1,6 +1,5 @@
 import React from 'react';
 
-import img_1 from '../assets/images/img-1.jpg';
 import img_2 from '../assets/images/img-2.jpg';
 import img_3 from '../assets/images/img-3.jpg';
 import img_4 from '../assets/images/img-4.jpg';
@@ -59,7 +58,6 @@ const ImageList = () => {
     { image: img_15 },
     { image: img_16 },   
     { image: img_25 },
-    { image: img_1 },
     { image: img_2 },
     { image: img_29 },
     { image: img_7 },
