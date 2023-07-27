@@ -1,5 +1,6 @@
 import React from 'react'
 import banner from '../assets/banner3.jpg'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -17,10 +18,10 @@ function Hero() {
           </div>
         <div className=" flex space-x-4 mt-10 md:mt-16 ">
           <button className="bg-[#bc9e86] md:hover:text-white text-[#562812] py-2 px-4 md:py-4 md:px-8 md:text-lg font-semibold rounded font-montserrat">
-            See Our Work
+            <Link to='/gallery'>See Our Work</Link>
           </button>
           <button className="bg-[#bc9e86] md:hover:text-white text-[#562812] py-2 px-5 md:py-4 md:px-9 md:text-lg font-semibold font-montserrat rounded">
-            Get In Touch
+            <Link to='/contact-us'>Get In Touch</Link>
           </button>
         </div>
         </div>
