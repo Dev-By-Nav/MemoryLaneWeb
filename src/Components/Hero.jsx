@@ -16,10 +16,10 @@ function Hero() {
 
           </div>
         <div className=" flex space-x-4 mt-10 md:mt-16 ">
-          <button className="bg-[#bc9e86] hover:text-white text-[#562812] py-2 px-4 md:py-4 md:px-8 md:text-lg font-semibold rounded font-montserrat">
+          <button className="bg-[#bc9e86] md:hover:text-white text-[#562812] py-2 px-4 md:py-4 md:px-8 md:text-lg font-semibold rounded font-montserrat">
             See Our Work
           </button>
-          <button className="bg-[#bc9e86] hover:text-white text-[#562812] py-2 px-5 md:py-4 md:px-9 md:text-lg font-semibold font-montserrat rounded">
+          <button className="bg-[#bc9e86] md:hover:text-white text-[#562812] py-2 px-5 md:py-4 md:px-9 md:text-lg font-semibold font-montserrat rounded">
             Get In Touch
           </button>
         </div>
