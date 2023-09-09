@@ -28,8 +28,8 @@ function Footer() {
 
       <div className="text-center mt-16 text-sm">
       <p>
-        Web Design & Development by NV DEVELOPMENT |{' '}
-        <a href='https://www.instagram.com/nv.development/' target="_blank" rel="noopener noreferrer">
+        Web Design & Development by Bold Edge Media |{' '}
+        <a href='https://www.instagram.com/boldedgemedia/' target="_blank" rel="noopener noreferrer">
           <span className="inline-block align-middle">
             <FaInstagram />
           </span>
