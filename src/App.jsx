@@ -6,6 +6,7 @@ import Gallery from './Pages/Gallery'
 import Services from './Pages/Services'
 import Contact from './Pages/Contact'
 import Error from './Pages/Error'
+import Reviews from './Pages/Reviews'
 
 
 
@@ -18,6 +19,8 @@ function App() {
         <Route path='/gallery' element={<Gallery />}></Route>
         <Route path='/services' element={<Services />}></Route>
         <Route path='/contact-us' element={<Contact />}></Route>
+        <Route path='/testimonials' element={<Reviews />}></Route>
+
         <Route path='/*' element={<Error />}></Route>
       </Routes>
     </div>

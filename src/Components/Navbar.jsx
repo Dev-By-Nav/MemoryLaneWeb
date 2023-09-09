@@ -24,7 +24,9 @@ const Navbar = () => {
       <li className='p-4 hover:text-white font-medium'><Link to='/'>Home</Link></li>
       <li className='p-4 hover:text-white font-medium'><Link to='/gallery'>Gallery</Link></li>
       <li className='p-4 hover:text-white font-medium'><Link to='/services'>Services</Link></li>
+      <li className='p-4 hover:text-white font-medium'><Link to='/testimonials'>Testimonials</Link></li>
       <li className='p-4 hover:text-white font-medium flex-row'><Link to='/contact-us'>Contact Us</Link></li>
+
     </ul>
       <div onClick={handleNav} className='block md:hidden cursor-pointer text-[#562812] hover:text-white mr-4'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
@@ -34,6 +36,7 @@ const Navbar = () => {
           <li className='p-4 border-b hover:text-white border-gray-600 font-medium'><Link to='/'>Home</Link></li>
           <li className='p-4 border-b hover:text-white border-gray-600 font-medium'><Link to='/gallery'>Gallery</Link></li>
           <li className='p-4 border-b hover:text-white border-gray-600 font-medium'><Link to='/services'>Services</Link></li>
+          <li className='p-4 border-b hover:text-white border-gray-600 font-medium'><Link to='/testimonials'>Testimonials</Link></li>
           <li className='p-4 hover:text-white font-medium flex-row'><Link to='/contact-us'>Contact Us</Link></li>
         </ul>
       </div>

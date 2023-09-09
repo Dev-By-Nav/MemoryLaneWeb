@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../assets/banner3.jpg'
+import banner from '../assets/banner7.jpg'
 import { Link } from 'react-router-dom'
 
 function Hero() {
@@ -11,8 +11,8 @@ function Hero() {
       >
 
         <div className='flex flex-col items-center py-8'>
-          <div className='flex flex-col justify-center items-center text-white '>
-            <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold font-montserrat py-3 text-center">Lower Mainland's Most Affordable <br/>Photo Booth Service!</h1>
+          <div className='flex flex-col justify-center items-center text-[#3e1d0e] '>
+            <h1 className="md:text-5xl sm:text-4xl text-2xl font-extrabold font-montserrat py-3 text-center">Lower Mainland's Most Affordable <br/>Photo Booth Service!</h1>
             <h2 className="text-center w-3/4 font-semibold font-raleway sm:text-lg text-base">Add a touch of excitement to weddings, parties, corporate gatherings & more, as guests indulge in laughter and creativity at our interactive photobooths.</h2>
 
           </div>

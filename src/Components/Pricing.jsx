@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pricing() {
   return (
-    <div className='flex items-center justify-center mt-16 flex-col'>
+    <div className='flex items-center justify-center mt-16 flex-col text-[#562812]'>
         <h1 className=' text-2xl font-semibold font-montserrat'>Pricing & Services</h1>
 
         <div className='mt-10 pl-6'>
