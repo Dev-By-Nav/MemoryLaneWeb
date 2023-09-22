@@ -28,13 +28,13 @@ function ClientInfo() {
           <Accordion>
             <AccordionHeader>Do you require a deposit & when do we pay ?</AccordionHeader>
             <AccordionBody>
-              Yes. We require a 50% non-refundable deposit at the time of booking to reserve your date. The remainder 50% is paid on the day of the event.
+              Yes. We require a 50% non-refundable deposit at the time of booking to reserve your date. The remainder 50% is due 24 hours before the event.
             </AccordionBody>
           </Accordion>
           <Accordion>
             <AccordionHeader>Can we choose the layout & design for our photo strips ?</AccordionHeader>
             <AccordionBody>
-              Yes. All our packages include layouts & designs you can choose from for free, or get a cutom one made for only $20.
+              Yes. All our packages include layouts & designs you can choose from for free, or get a custom one made for only $20.
             </AccordionBody>
           </Accordion>
           <Accordion>
